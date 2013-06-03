@@ -117,7 +117,7 @@ function OnTriggerEnter(other:Collider)
 				Destroy(GameObject.FindGameObjectWithTag("speedboost"));
 				boost = true;
 		
-				speed = 300;
+				speed = 40;
 				yield WaitForSeconds (5);
 				boost = false;
 				speed = 15;
